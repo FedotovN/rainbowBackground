@@ -16,18 +16,3 @@ body{
     align-items: center;
     transition: .5s;
 }
-a{
-    color: rgb(53, 50, 50);
-    text-decoration: none;
-}
-#colorChangingButton{
-    color: rgb(53, 50, 50);
-    cursor: pointer;
-    font-family: monospace;
-    text-transform: lowercase;
-    padding: 30px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: .5px -.5px 10px #17160C;
-    transition: .3s;
-}
