@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #FCAA81;
+    color: #F4EDF8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+a{
+    color: rgb(53, 50, 50);
+    text-decoration: none;
+}
+#colorChangingButton{
+    color: rgb(53, 50, 50);
+    cursor: pointer;
+    font-family: monospace;
+    text-transform: lowercase;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: .5px -.5px 10px #17160C;
+    transition: .3s;
+}
